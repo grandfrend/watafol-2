@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-50: #FCFAF7;
+  --color-brand-100: #F4F2EA;
+  --color-brand-200: #E7E4D8;
+  --color-brand-300: #D2CDC0;
+  --color-brand-500: #5A5A40;
+  --color-brand-600: #5A5A40;
+  --color-brand-700: #494934;
+  --color-brand-800: #383828;
+  --color-brand-950: #1C1C14;
+
+  --color-accent-50: #FDF7F5;
+  --color-accent-100: #FAF0EB;
+  --color-accent-200: #F6DDCE;
+  --color-accent-500: #D97757;
+  --color-accent-600: #D97757;
+  --color-accent-700: #C06141;
+  --color-accent-800: #A24B2E;
+
+  --color-stone-50: #FCFAF7;
+  --color-stone-100: #F4F2EA;
+  --color-stone-200: #E7E4D8;
+  --color-stone-300: #D2CDC0;
+  --color-stone-400: #A29E91;
+  --color-stone-500: #7E796C;
+  --color-stone-600: #5A5A40;
+  --color-stone-700: #494934;
+  --color-stone-800: #292822;
+  --color-stone-900: #1C1C14;
+
+  --color-neutral-50: #FCFAF7;
+  --color-neutral-100: #F4F2EA;
+  --color-neutral-200: #E7E4D8;
+  --color-neutral-300: #D2CDC0;
+  --color-neutral-400: #A29E91;
+  --color-neutral-500: #7E796C;
+  --color-neutral-600: #5C584E;
+  --color-neutral-700: #444139;
+  --color-neutral-800: #292823;
+  --color-neutral-900: #201F1A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FCFAF7;
+  color: #292822;
+  -webkit-font-smoothing: antialiased;
+}
+

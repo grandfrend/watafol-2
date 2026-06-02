@@ -1,0 +1,9 @@
+{
+  "name": "Watafol",
+  "description": "Plataforma de búsqueda y reserva de productos en farmacias y abacerías de Guinea Ecuatorial (Malabo) y CEMAC. PWA con catálogo maestro, compras vía WhatsApp, lector de recetas por IA y panel de comerciantes.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
